@@ -1,0 +1,120 @@
+<style>
+html {
+  font: 100%/1.15 serif;
+  color: #333;
+  }
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+body {
+  background-color: white;
+  margin: 0;
+  }
+nav ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 1em;
+  font-family: times;
+  text-align: left;
+  color: #333;
+
+}
+
+a:link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #663399;
+}
+
+a:visited {
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #eee;
+  color: #663366;
+}
+
+.max-width {
+  max-width: 58em; /* 58em + 1em + 1em = 60em */
+  padding: 0 1em;
+  margin: 0 auto;
+  }
+
+
+  .back-to-top {
+
+  background: none;
+
+  margin: 0;
+
+  position: fixed;
+
+  bottom: 0;
+
+  right: 0;
+
+  width: 70px;
+
+  height: 70px;
+
+  z-index: 100;
+
+  display: none;
+
+  text-decoration: none;
+
+  color: #ffffff;
+
+  background-color: #ff9000;
+
+  }
+
+
+  .back-to-top i {
+
+    font-size: 60px;
+
+  }
+
+
+#banner {
+  background-color: #999;
+  background-image:url(https://www.pantone.com/images/pages/20758/wallpaper/PANTONE-Color-of-the-Year-2016-v5-2732x2048.jpg);
+  background: #999 url("https://www.pantone.com/images/pages/20758/wallpaper/PANTONE-Color-of-the-Year-2016-v5-2732x2048.jpg")
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  padding: 5% 0;
+  }
+
+#banner h1 {
+  display: inline-block;
+  font: bold 3em/1.15 "Georgia", serif;
+  color: #eee;
+  padding: .3em;
+  }
+
+@media (min-width: 48em) {
+
+
+main {
+  font-family: Arial, serif;
+  }
+
+@media (min-width: 48em) {
+
+  main h1 {
+    font-size: 2.5em;
+    }
+
+  main p {
+    font-size: 1.2em;
+    line-height: 1.65;
+    }
+
+  }
+</style>
